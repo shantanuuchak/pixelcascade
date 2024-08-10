@@ -2,7 +2,6 @@
   "name": "pixelcascade",
   "version": "1.0.0",
   "description": "An image gallery",
-  "main": "index.js",
   "scripts": {
     "start": "parcel src/index.html",
     "build": "parcel build src/index.html"
