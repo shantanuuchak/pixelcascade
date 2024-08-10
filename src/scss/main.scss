@@ -1,5 +1,6 @@
 @import url(utility.scss);
 
+// MARK: General
 * {
   padding: 0;
   margin: 0;
@@ -13,14 +14,37 @@ body {
   line-height: 1.6;
 }
 
-// Header
+// MARK: Header
 header {
+  margin: 1.5rem auto;
+
   .logo {
     width: 120px;
   }
+
   nav {
     ul {
-      gap: 10px;
+      gap: 1rem;
+
+      a {
+        text-decoration: none;
+        color: inherit;
+        padding: 0.5rem 1rem;
+
+        &:hover {
+          background: #f1f1ee;
+        }
+      }
+    }
+  }
+}
+
+// MARK: Responsive
+@media screen and (max-width: 768px) {
+  header {
+    .container {
+      flex-direction: column;
+      gap: 1.5rem;
     }
   }
 }
