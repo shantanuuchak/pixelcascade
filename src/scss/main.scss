@@ -15,13 +15,11 @@ body {
 
 // Header
 header {
-  justify-content: space-between;
   .logo {
     width: 120px;
   }
   nav {
     ul {
-      list-style: none;
       gap: 10px;
     }
   }

@@ -1,3 +1,33 @@
 .flex {
-    display: flex;
+  display: flex;
+}
+
+// Lists
+.list-none {
+  list-style-type: none;
+}
+
+// Flex
+.justify-between {
+  justify-content: space-between;
+}
+
+.align-center {
+  align-items: center;
+}
+
+// Container
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+.container-sm {
+  max-width: 900px;
+}
+
+.container-lg {
+  @extend .container;
+  max-width: 1400px;
 }
