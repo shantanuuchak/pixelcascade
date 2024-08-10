@@ -75,10 +75,36 @@ main {
   }
 }
 
+footer {
+  border: 1px solid gray;
+  padding: 2rem 1.5rem;
+  margin-top: 2rem;
+
+  .logo {
+    width: 120px;
+    height: 35px;
+  }
+
+  h4 {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+  }
+
+  a {
+    text-decoration: none;
+    color: inherit;
+    margin: 0.2rem;
+  }
+
+  .socials {
+    font-size: 2rem;
+  }
+}
+
 // MARK: Responsive
 @media screen and (max-width: 768px) {
   header {
-    .container-sm {
+    .container {
       flex-direction: column;
       gap: 1.5rem;
     }
@@ -101,6 +127,18 @@ main {
           width: calc(50% - 10px);
         }
       }
+    }
+  }
+
+  footer {
+    padding: 1rem;
+    margin-top: 1rem;
+
+    .container {
+      flex-direction: column;
+      // text-align: center;
+      gap: 2rem;
+      align-items: start;
     }
   }
 }
