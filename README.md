@@ -1,2 +1,2 @@
 # pixelcascade
-An image gallery
+An image gallery project built using SCSS
