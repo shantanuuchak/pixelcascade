@@ -14,6 +14,10 @@ body {
   color: $black;
 }
 
+img {
+  width: 100%;
+}
+
 // MARK: Header
 header {
   margin: 1.5rem auto;
@@ -41,7 +45,6 @@ header {
 main {
   .hero {
     height: 40vh;
-    display: flex;
     text-align: center;
   }
 
@@ -49,6 +52,26 @@ main {
     font-size: 3rem;
     line-height: 1.3;
     font-weight: 300;
+  }
+
+  .gallery {
+    .container {
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+
+    .gallery-item {
+      width: calc(33% - 20px);
+
+      img {
+        border-radius: 0.5rem;
+        transition: filter 1s;
+
+        &:hover {
+          filter: sepia(1);
+        }
+      }
+    }
   }
 }
 
@@ -68,6 +91,16 @@ main {
 
     .hero {
       height: 20vh;
+    }
+
+    .gallery {
+      gap: 10px;
+
+      .container {
+        .gallery-item {
+          width: calc(50% - 10px);
+        }
+      }
     }
   }
 }
