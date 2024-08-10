@@ -1,7 +1,17 @@
+@import "variables";
+
 // ====== General ======
 .active {
-  background: #d7f457;
+  background: $highlight;
   font-weight: 700;
+}
+
+.bg-primary {
+  background: $highlight;
+}
+
+.italic {
+  font-style: italic;
 }
 
 // ====== Lists ======
