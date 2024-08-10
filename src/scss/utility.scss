@@ -30,6 +30,7 @@
 }
 
 .container-sm {
+  @extend .container;
   max-width: 900px;
 }
 
