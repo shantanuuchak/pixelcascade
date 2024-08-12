@@ -47,6 +47,8 @@ main {
   .hero {
     height: 40vh;
     text-align: center;
+    display: grid;
+    place-items: center;
   }
 
   h1 {
