@@ -36,6 +36,7 @@ header {
 
       &:hover {
         background: #f1f1ee;
+        outline: 2px dashed $highlight;
       }
     }
   }
