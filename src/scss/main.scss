@@ -12,6 +12,7 @@ body {
   font-family: $font-sans;
   line-height: 1.6;
   color: $black;
+  background-image: linear-gradient(to top left, #fff1eb 0%, #ace0f9 100%);
 }
 
 img {
@@ -82,7 +83,7 @@ main {
 
 footer {
   padding: 2rem 1.5rem;
-  background: #eea;
+  background-image: linear-gradient(to top, #c1dfc4 0%, #deecdd 100%);
 
   .logo {
     width: 120px;
